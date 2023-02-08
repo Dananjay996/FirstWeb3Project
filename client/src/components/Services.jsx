@@ -10,7 +10,7 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
     </div>
     <div className="ml-5 flex flex-col flex-1">
       <h3 className="mt-2 text-white text-lg">{title}</h3>
-      <p className="mt-1 text-white text-sm md:w-9/12">
+      <p className="mt-1 text-white text-sm md:w-8/12">
         {subtitle}
       </p>
     </div>
@@ -21,7 +21,7 @@ const Services = () => (
   <div className="flex w-full justify-center items-center gradient-bg-services">
     <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
       <div className="flex-1 flex flex-col justify-start items-start">
-        <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
+        <h1 className="text-white text-2xl sm:text-5xl py-2 text-gradient ">
           Services that we
           <br />
           continue to improve
